@@ -3,7 +3,7 @@
   
   <!--お前は誰だ？-->
   <div class = "acount-name">
-     <a href="#">Tom</a>
+    <%=link_to  current_user.name, edit_user_path(current_user)%>
   </div>
   
   <!--部屋を作る-->
