@@ -7,13 +7,31 @@
   width: 300px;
   height: 100vh;
 }
-
+/*ーーー左側上部ーーーーーーーーー*/
 .side-header{
   height: 100px;
-  background-color: #253141;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*ーーー名前入れてくださいーーー*/
+.acount-name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
 }
 
+/*ーーーお部屋探しますとーーーー*/
+.make-room a{
+  font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+/*ーーーー左側中段ーーーーーーーー*/
 .side-body{
   height: calc(100vh - 100px);
   background-color: #2F3E51;
